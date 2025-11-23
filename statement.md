@@ -1,11 +1,11 @@
 # 🏦 Project title: INR Currency Converter
 
-## [cite_start]1. Problem Statement [cite: 63, 99]
+## 1. Problem Statement
 
 In today's globalized economy, accurate and real-time (or near-real-time) currency conversion is a necessity for many users. The Indian Rupee (INR) is a critical currency for trade, tourism, and remittances. Manual conversion is inefficient, error-prone, and often relies on outdated, static rates.
 The core problem is the lack of a **simple, reliable, and accessible tool** that allows users to quickly calculate the equivalent value of a given INR amount into major international currencies (USD, EUR, GBP, JPY, etc.) directly on their local machine.
 
-## [cite_start]2. Scope of the Project [cite: 100]
+## 2. Scope of the Project
 
 The scope of this project is to implement a console-based application using Python that meets the following criteria:
 
@@ -19,7 +19,7 @@ The scope of this project is to implement a console-based application using Pyth
 * Graphical User Interface (GUI).
 * Historical data analysis or prediction features.
 
-## [cite_start]3. Target Users [cite: 102]
+## 3. Target Users 
 
 The target users for this application are primarily those who require quick, transactional conversion checks:
 
@@ -28,10 +28,11 @@ The target users for this application are primarily those who require quick, tra
 3.  **Casual Travelers:** Need to budget and estimate foreign currency needs for a trip.
 4.  **Remittance Senders:** Checking the equivalent value of INR before sending money abroad.
 
-## [cite_start]4. High-Level Features [cite: 103]
+## 4. High-Level Features 
 
-[cite_start]The application provides three primary high-level features, corresponding to the required functional modules[cite: 21]:
+The application provides three primary high-level features, corresponding to the required functional modules
 
 1.  **Rate Management:** The application defines and manages the list of supported currency codes and their corresponding exchange rates through a dedicated **Data Module** (`get_exchange_rates_data`).
 2.  **Validated Input:** The system accepts and validates user input for both the amount (must be a positive number) and the target currency code (must be supported) within the **Main/Interface Module** (`run_converter_interface`).
+
 3.  **Accurate Conversion:** The dedicated **Core Logic Module** (`convert_currency`) performs the exchange rate multiplication accurately and returns the converted amount.
