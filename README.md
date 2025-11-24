@@ -41,7 +41,7 @@ You must have Python 3.x installed on your operating system (Windows, macOS, or 
 Clone the Repository:
 Open your terminal and use the following command to download the project files:
 
-git clone [YOUR_REPOSITORY_URL]
+git clone - https://github.com/palak25bhi10116-tech/Palak25bhi10116
 cd modular-inr-converter # Replace with your actual repository name
 
 
@@ -69,9 +69,5 @@ To confirm the converter's reliability and robustness, you should execute the fo
 **Invalid Amount (Text Input)**: Input text, like 'hello', for the amount, and USD for the currency. The expected outcome is a specific error message stating: "Invalid input. Please enter a valid number."
 
 **Invalid Amount (Negative Value)**: Input a negative number, like -100, for the amount, and USD for the currency. The expected outcome is a specific error message stating: "Amount must be a positive number."
-
-**Unsupported Currency**: Input 100 INR for the amount and an unsupported code, like 'ABC', for the currency. The expected outcome is an error message stating: "Invalid currency code. Please choose from: [list of supported codes]."
-
-##Screenshots
 
 A folder named /screenshots is included in the repository and contains images of the application running successfully in the terminal for visual proof.
